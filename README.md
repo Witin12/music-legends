@@ -1,73 +1,48 @@
-# React + TypeScript + Vite
+# 🎵 Music Legends (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Em desenvolvimento](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 
-Currently, two official plugins are available:
+> Um player de música temático inspirado na interface visual do League of Legends, desenvolvido para aprimorar habilidades em Front-end.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💻 Sobre o Projeto
 
-## React Compiler
+Este projeto consiste na criação de uma interface de **Music Player** utilizando a biblioteca **React**. O objetivo principal é consolidar conhecimentos sobre:
+* Componentização
+* Gerenciamento de Estado (Hooks: useState, useEffect)
+* Estilização avançada (CSS/Styled Components)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A identidade visual busca referências no estilo **Hextech** e na UI do cliente do jogo League of Legends.
 
-## Expanding the ESLint configuration
+## 🎨 Layout (Em breve)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+*Aqui você colocará um print ou GIF da tela quando tiver a primeira versão visual pronta.*
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Funcionalidades Previstas
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- [ ] Play, Pause, Próxima e Anterior
+- [ ] Controle de volume
+- [ ] Barra de progresso da música
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🛠 Tecnologias Utilizadas
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+* **[React](https://reactjs.org/)**
+* **[Vite](https://vitejs.dev/)** (ou Create React App)
+* **CSS Modules / Styled Components / Tailwind** (Escolha o que for usar)
+* **JavaScript (ES6+)**
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
+Ideia desenvolvida por:
+* **[Iuri Code](https://www.linkedin.com/in/iuricode/)**
+---
+Link do wireframe desenvolvido como desafio:
+  * **[Figma](https://www.figma.com/design/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---CodeLab?node-id=80254-762&p=f)**
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📂 Como rodar o projeto localmente
+
+Siga os passos abaixo para testar em sua máquina:
+
+1. **Clone o repositório**
+   ```bash
+   git clone [https://github.com/witin12/music-legends.git](https://github.com/witin12/music-legends.git)
