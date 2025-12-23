@@ -16,7 +16,7 @@ A identidade visual busca referências no estilo **Hextech** e na UI do cliente 
 
 ## 🎨 Layout (Em breve)
 
-*Aqui você colocará um print ou GIF da tela quando tiver a primeira versão visual pronta.*
+![Prévia do projeto](image-1.png)
 
 ## 🚀 Funcionalidades Previstas
 
