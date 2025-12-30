@@ -10,13 +10,13 @@
 Este projeto consiste na criação de uma interface de **Music Player** utilizando a biblioteca **React**. O objetivo principal é consolidar conhecimentos sobre:
 * Componentização
 * Gerenciamento de Estado (Hooks: useState, useEffect)
-* Estilização avançada (CSS/Styled Components)
+* Estilização avançada (CSS/Styled Components/Tailwind)
 
 A identidade visual busca referências no estilo **Hextech** e na UI do cliente do jogo League of Legends.
 
-## 🎨 Layout (Em breve)
+## 🎨 Layout
 
-![Prévia do projeto](image-1.png)
+![Prévia do projeto](layout.png)
 
 ## 🚀 Funcionalidades Previstas
 
