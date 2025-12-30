@@ -27,8 +27,8 @@ A identidade visual busca referências no estilo **Hextech** e na UI do cliente 
 ## 🛠 Tecnologias Utilizadas
 
 * **[React](https://reactjs.org/)**
-* **[Vite](https://vitejs.dev/)** (ou Create React App)
-* **CSS Modules / Styled Components / Tailwind** (Escolha o que for usar)
+* **[Vite](https://vitejs.dev/)** 
+* **CSS Modules / Styled Components / Tailwind** 
 * **JavaScript (ES6+)**
 
 ---

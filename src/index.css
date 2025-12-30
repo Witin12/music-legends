@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   /* variaveis */
   --fonte-principal: "Lexend", sans-serif;
